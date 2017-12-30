@@ -1,0 +1,35 @@
+{
+  "name": "ghoard",
+  "version": "1.0.0",
+  "description": "An endpoint for quickly hoarding files to your google drive, using the Google auth and API libraries.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run nodemon -L",
+    "start": "node server.js"
+  },
+  "author": "paul@mindres.in",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0",
+    "mime": "^2.1.0",
+    "nodemon": "^1.14.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telekineticyeti/ghoard.git"
+  },
+  "keywords": [
+    "google",
+    "drive",
+    "api",
+    "hoard"
+  ],
+  "bugs": {
+    "url": "https://github.com/telekineticyeti/ghoard/issues"
+  },
+  "homepage": "https://github.com/telekineticyeti/ghoard#readme"
+}
